@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url('./webb-dark.png'); */
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 100%;
+}
+.Eth-logo {
+  width: 150px;
+  margin: 0 auto;
+}
+body {
+  background-image: url('./webb-dark.png');
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  height: 60px;
+  /* border: 2px solid aqua; */
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li a {
+  background: transparent;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+}
+
+nav ul li a:hover {
+  padding-right: 25px;
+  background-color: #215caf;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #215caf;
+  height: 40px;
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  /* z-index: 2; */
+  color: #f9dfdc;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: overline;
+}
+
+.Eth-CD {
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: 200px; */
+  max-width: 50%;
+  margin: 50px auto;
+}
+.Eth-CD .Eth-CD-format {
+  display: flex;
+  margin: 20px;
+  border: #215caf solid 1px;
+  justify-content: space-between;
+  /* width: 100%; */
+  padding: 10px;
+}
+
+.Eth-CD h4 {
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Eth-CD span {
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: aquamarine;
+  /* border: 1px solid #215caf; */
+  margin: 10px;
+}
+.Eth-starts {
+  color: #fff;
+  text-align: center;
+  margin: 1.3rem;
+}
+
+.general-btn a {
+  color: #fff;
+  margin-bottom: 100px;
+  display: inline-block;
+  border: 2px solid #f9dfdc;
+  padding: 10px 20px;
+  text-decoration: overline;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  position: relative;
+  left: 31.5%;
+}
+.general-btn a:hover {
+  background: #215caf;
+  padding-left: 30px;
+}
+.eth-heading {
+  color: #215caf;
+}
+.theme h2 {
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+.eth-heading span {
+  color: aquamarine;
+}
+
+h5 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.anime {
+  transition: all 0.5s linear;
+  animation: move 2s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+h1 {
+  color: #215caf;
+  text-align: center;
+}
+
+.desc p {
+  color: #fff;
+  line-height: 2;
+  text-align: justify;
+  padding: 30px;
+}
