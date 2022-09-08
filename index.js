@@ -26,7 +26,7 @@ const ethStarts = document.querySelector('.Eth-starts');
 const ethcd = document.querySelector('.Eth-CD');
 const items = document.querySelectorAll('.Eth-CD-format h4');
 
-let futureDate = new Date(2022, 08, 15, 00, 00, 00);
+let futureDate = new Date(2022, 08, 15);
 // console.log(futureDate);
 
 const year = futureDate.getFullYear();
@@ -37,7 +37,7 @@ const hour = futureDate.getHours();
 const min = futureDate.getMinutes();
 const sec = futureDate.getSeconds();
 
-ethStarts.textContent = `The Ethereum 2.0 Merge starts on ${day}, ${date}th ${month} ${year}  12:00:00am.`;
+ethStarts.textContent = `The Ethereum 2.0 Merge starts on ${day}, ${date}th ${month} ${year}`;
 
 const futureTime = futureDate.getTime();
 // console.log(futureTime);
