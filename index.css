@@ -81,23 +81,24 @@ h2 {
 .Eth-CD {
   color: aquamarine;
   display: flex;
-  flex-direction: column;
+/*   flex-direction: column; */
   justify-content: center;
   /* margin-bottom: 200px; */
   max-width: 50%;
   margin: 50px auto;
+  padding: 20px;
 }
 .Eth-CD .Eth-CD-format {
   display: flex;
-  margin: 20px;
+/*   margin: 20px; */
   border: #215caf solid 1px;
   justify-content: space-between;
   /* width: 100%; */
-  padding: 10px;
+/*   padding: 10px; */
 }
 
 .Eth-CD h4 {
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Orbitron', sans-serif;
 }
 
