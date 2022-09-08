@@ -26,7 +26,7 @@ const ethStarts = document.querySelector('.Eth-starts');
 const ethcd = document.querySelector('.Eth-CD');
 const items = document.querySelectorAll('.Eth-CD-format h4');
 
-let futureDate = new Date(2022, 08, 7, 22, 59, 00);
+let futureDate = new Date(2022, 08, 15, 00, 00, 00);
 // console.log(futureDate);
 
 const year = futureDate.getFullYear();
