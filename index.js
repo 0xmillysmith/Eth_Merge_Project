@@ -37,7 +37,7 @@ const hour = futureDate.getHours();
 const min = futureDate.getMinutes();
 const sec = futureDate.getSeconds();
 
-ethStarts.textContent = `The Ethereum 2.0 Merge starts on ${day}, ${date}th ${month} ${year}  ${hour}:${min}:${sec} am.`;
+ethStarts.textContent = `The Ethereum 2.0 Merge starts on ${day}, ${date}th ${month} ${year}  12:00:00am.`;
 
 const futureTime = futureDate.getTime();
 // console.log(futureTime);
